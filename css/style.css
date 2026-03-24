@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--color-contenido:#898989;
+	--color-blanco: #fff;
+
+}
+
+body{
+	font-size: 14px;
+	font-family: "Catamaran", sans-serif;
+	color: var(--color-contenido);
+}
+
+
+header{
+	background-color: #fff;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+
+.section{
+	padding:4% 0;
+}
+
+.subtitulo{
+	font-family: "Catamaran", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	color: var(--color-negro);
+}
+
+#hero h1{
+	font-size: 90px;
+	font-weight: 600;
+}
+
+#hero p{
+	font-size: 18px;
+	
+}
+
+#cta{
+	
+	background-image: url("../img/home-grid-banner.jpg");
+	backgound-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cta-info{
+	color: var(--color-blanco);
+}
+
+.cta-info h2{
+	font-size: 50px;
+	font-weight: 800;
+}
+
+.btn-light{
+	font-family: "Catamaran", sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+	border-radius: 30px;
+	padding: 15px 50px;
+}
+
+
+.btn-cta{
+	text-align: center;
+}
+
+
+
+
